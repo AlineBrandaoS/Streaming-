@@ -1,5 +1,8 @@
-__pycache__/
+filmnow/app/database/__pycache__
+
+filmnow/app/Banco_de_dados.db
+
+filmnow/app/routes/__pycache__
 
 venv/
 
-filmnow/app/Banco_de_dados.db
