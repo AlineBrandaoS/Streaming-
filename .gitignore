@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 __pycache__
+=======
+../__pycache__/
+>>>>>>> 7b24db9497c614e1596cdc9e6082c44bc525ba0d
 
 
-**/Banco_de_dados.db
+../Banco_de_dados.db
 .venv/
 
