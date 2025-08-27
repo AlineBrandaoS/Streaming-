@@ -1,6 +1,6 @@
-**/__pycache__/
+../__pycache__/
 
 
-**/Banco_de_dados.db
+../Banco_de_dados.db
 .venv/
 
