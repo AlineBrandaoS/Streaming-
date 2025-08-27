@@ -2,14 +2,14 @@ from flask import Flask,Blueprint ,render_template, request, redirect, url_for
 from ..database.database import get_db_connection
 import sqlite3
 
-cliente_route = Blueprint('cliente', __name__, template_folder='../templates')
+cadastro_route = Blueprint('cadastro', __name__, template_folder='../templates')
 
 # rota inicial
-@cliente_route.route('/cadastro')
+@cadastro_route.route('/cadastro')
 def cadastro():
     return render_template('cadastro.html')
 # nova rota
-@cliente_route.route('/form-cadastro', methods=['POST'])
+@cadastro_route.route('/form-cadastro', methods=['POST'])
 def cadastrar():
     # acesso aos dados do formulario
     nome = request.form['nome']
@@ -28,6 +28,6 @@ def cadastrar():
     
     return redirect(url_for('home.html'))
 # rota que os dados foram adicionados ao banco de dados com sucesso
-@cliente_route.route('/success')
+@cadastro_route.route('/success')
 def success():
     return "<h1>Cadastro realizado com sucesso</h1>"
