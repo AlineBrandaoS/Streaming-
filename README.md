@@ -13,7 +13,6 @@ Projeto educacional de streaming de filmes, com foco em design de interface, exp
 
 ## 📂 Estrutura do projeto
 
-- design/ → protótipos e mockups do Figma
 - src/ → código-fonte do front-end (HTML, CSS)
 - backend/ → scripts e rotas Python para autenticação e gerenciamento de dados
 - assets/ → imagens, ícones e fontes
