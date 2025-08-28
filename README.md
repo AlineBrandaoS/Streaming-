@@ -1,10 +1,10 @@
 # 🎬 FilmNow
 
-- Projeto educacional de streaming de filmes, com foco em design de interface, experiência do usuário (UX/UI) e desenvolvimento full-stack.
+Projeto educacional de streaming de filmes, com foco em design de interface, experiência do usuário (UX/UI) e desenvolvimento full-stack.
 
 ## 📌 Sobre o projeto
 
-- O FilmNow é um protótipo de plataforma de streaming desenvolvido para praticar habilidades de front-end e backend:
+ O FilmNow é um protótipo de plataforma de streaming desenvolvido para praticar habilidades de front-end e backend:
 
 - **Front-end:** Layout responsivo com HTML, CSS e planejado para futuras interações
 - **Backend:** Estrutura inicial com Python para autenticação, gerenciamento de usuários e integração com APIs de filmes
